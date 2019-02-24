@@ -141,7 +141,7 @@ public:
       */
     Vector( const Vector &v )
     {
-        readArray( v.array() );
+        this->readArray( v.array() );
     }
 
     /**
