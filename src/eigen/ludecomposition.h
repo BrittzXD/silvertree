@@ -85,7 +85,7 @@ class LUDecomposition
 public:
 
     /** Performs the LU Decomposition of mat. Use this constructor. */
-    LUDecomposition( const Matrix<T, Size> & mat ) { perform( mat ); }
+    LUDecomposition( const Matrix<T, Size> & mat ) { this->perform( mat ); }
 
 protected:
     /** Default constructor. Does nothing. \internal
