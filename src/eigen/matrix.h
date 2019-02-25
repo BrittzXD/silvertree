@@ -170,7 +170,7 @@ public:
       */
     Matrix( const Matrix & other )
     {
-        readArray( other.array() );
+        this->readArray( other.array() );
     }
 
     /**
